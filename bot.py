@@ -49,12 +49,12 @@ def start(message):
 	if weekday == "Воскресенье":
 		weekday = "воскресенье 😣"
 	bot.send_message(message.chat.id, f"<b>Привет {message.from_user.first_name}! Сегодня {weekday}</b>\nЯ буду тебя развлекать, когда тебе одиноко😏", parse_mode='html', reply_markup=markup)
-	if message.from_user.first_name == "GB":
+	if message.from_user.first_name == admin_name:
 		markup.add(btn5)
 		bot.send_message(message.chat.id, f"Login is Allowed in the Admin Panel",  reply_markup=markup)
 		
 def admin_panel(message):
-	if message.from_user.first_name != "GB":
+	if message.from_user.first_name != admin_name:
 		start(message)
 	else:
 		markup_admin = types.ReplyKeyboardMarkup(row_width=1)

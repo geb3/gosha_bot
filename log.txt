@@ -1,4 +1,9 @@
 license id="4">3870536489120500
 </license><license id="10">0159863540831088</license
 
-01106205766903
+0110620576690312.06.22 16:49:55 - user: GB @geba7 - text: back_to_user.
+12.06.22 16:50:01 - user: GB @geba7 - text: admin_panel.
+12.06.22 16:50:03 - user: GB @geba7 - text: back_to_user.
+12.06.22 16:50:04 - user: GB @geba7 - text: Узнать Гошу лучше.
+12.06.22 16:50:05 - user: GB @geba7 - text: Вернуться.
+12.06.22 16:50:09 - user: GB @geba7 - text: Узнать погоду у Гоши.
